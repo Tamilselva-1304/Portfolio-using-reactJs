@@ -1,0 +1,70 @@
+.maincarddesgin{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 30px;
+    padding: 30px;
+    background-color: #EBCBAE;
+    text-align: center;
+}
+
+/* .head>h1{
+    background-color: chocolate;
+    text-align: center;
+    font-size: 2.9rem;
+    padding-top: 15px;
+} */
+
+.carddesgin>img{
+    object-fit: cover;
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.carddesgin{
+    width: 300px;
+            height: 300px;
+            overflow: hidden;
+            margin: 0 auto;
+            /* z-index: 2; */
+}
+
+.carddesgin:hover img{
+    transform: scale(1.5);
+}
+
+.subcarddesgin{
+    background-color: rgb(218, 220, 220);
+    padding: 10px;
+}
+
+.subcarddesgin p{
+    font-size: 1.6rem;
+    margin-top: 10px;
+}
+
+.undersubcard{
+    margin-bottom: 60px;
+}
+
+.hignpara{
+    font-size: 1.2rem !important;
+}
+
+.subcarddesgin>button{
+    background-color: orangered;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+.subcarddesgin>button:hover{
+    background-color: black;
+}
+
+.subcarddesgin>button>a{
+    color: white;
+}
